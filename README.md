@@ -11,7 +11,7 @@ Job Application process is no doubt daunting process and resume is the document 
 
 # Features
 
-+ Resume Upload: Users can upload their resume in PDF format.
++ *Resume Upload:* Users can upload their resume in PDF format.
 + Job Description Input: A text input field allows users to paste the job description they are targeting.
 + AI-Powered Analysis: Utilizing Gemini AI, the application provides a detailed analysis of the resume in context with the job description.
 + Feedback on Different Aspects:
