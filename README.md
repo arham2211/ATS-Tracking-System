@@ -10,12 +10,27 @@ Job Application process is no doubt daunting process and resume is the document 
 + To offer a user-friendly interface that simplifies the resume review process.
 
 # Features
++ **Resume Upload:** Users can upload their resume in PDF format.
++ **Job Description Input:** A text input field allows users to paste the job description they are targeting.
++ **AI-Powered Analysis:** Utilizing Gemini AI, the application provides a detailed analysis of the resume in context with the job description.
++ **Feedback on Different Aspects:**
+    * **Resume Review:** General feedback on the resume.
+    * **Skills Improvement:** Suggestions for skills enhancement.
+    * **Keywords Analysis:** Identification of missing keywords in the resume.
+    * **Match Percentage:** A percentage score indicating how well the resume matches the job description.
 
-+ *Resume Upload:* Users can upload their resume in PDF format.
-+ Job Description Input: A text input field allows users to paste the job description they are targeting.
-+ AI-Powered Analysis: Utilizing Gemini AI, the application provides a detailed analysis of the resume in context with the job description.
-+ Feedback on Different Aspects:
-    * Resume Review: General feedback on the resume.
-    * Skills Improvement: Suggestions for skills enhancement.
-    * Keywords Analysis: Identification of missing keywords in the resume.
-    * Match Percentage: A percentage score indicating how well the resume matches the job description.
+# Technologies Used
++ **Streamlit:** For creating the web application interface.
++ **Google Generative AI (Gemini Pro Vision):** For processing and analyzing the resume content.
++ **Python:** The primary programming language used for backend development.
++ **PDF2Image & PIL:** For handling PDF file conversions and image processing.
+
+# Future Enhancements
++ **Support for Multiple Pages:** Extend the functionality to handle multi-page resumes.
++ **Customizable Feedback Categories:** Allow users to choose specific areas for feedback.
++ **Interactive Resume Editing:** Integrate a feature to edit the resume directly based on the AI's suggestions.
++ **Enhanced Error Handling:** Improve the system's robustness in handling various file formats and user inputs.
+
+# Conclusion
+The **Resume Expert** or **ATS Tracking System** Streamlit application stands as a significant tool in bridging the gap between job seekers and their ideal job roles. By harnessing the power of AI, it provides valuable insights and recommendations, making it a pivotal step in enhancing the job application process.
+
